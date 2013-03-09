@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *
+ * Copyright(C) OASIS(R) 2009,2011. All Rights Reserved.
+ * OASIS trademark, IPR and other policies apply.    
+ *   
+-->
+<!--
+ * Tests that the <implementation.spring> element conforms to the schema defined in 
+ * sca-implementation-spring.xsd.
+-->
+<composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+           targetNamespace="http://docs.oasis-open.org/ns/opencsa/scatests/200903"
+           xmlns:test="http://docs.oasis-open.org/ns/opencsa/scatests/200903"
+           name="test">
+           
+    <component name="TEST_COMPONENT">
+        <implementation.spring oops="bad"/>
+    </component> 
+
+</composite>

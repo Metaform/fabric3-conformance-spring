@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *
+ * Copyright(C) OASIS(R) 2009,2011. All Rights Reserved.
+ * OASIS trademark, IPR and other policies apply.    
+ *   
+-->
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+        <groupId>org.oasis-open.sca.j</groupId>
+        <artifactId>springci-modules</artifactId>
+        <version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>SPR_40001_1</artifactId>
+	<name>OASIS Spring CI TestCases - SPR_40001_1</name>
+
+</project>

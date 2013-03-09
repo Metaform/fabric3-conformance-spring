@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *
+ * Copyright(C) OASIS(R) 2009,2011. All Rights Reserved.
+ * OASIS trademark, IPR and other policies apply.    
+ *   
+-->
+<!--
+ * [SPR20002] Tests that the @target attribute of a <service/> subelement of a <beans/> element
+ * has the value of the @name attribute of one of the <bean/> subelements 
+ * of the <beans/> element.
+-->
+<composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+           targetNamespace="http://docs.oasis-open.org/ns/opencsa/scatests/200903"
+           xmlns:test="http://docs.oasis-open.org/ns/opencsa/scatests/200903"
+           name="test">
+           
+    <component name="TEST_COMPONENT">
+        <implementation.spring location="context.xml"/>
+    </component> 
+
+</composite>

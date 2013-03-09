@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *
+ * Copyright(C) OASIS(R) 2009,2011. All Rights Reserved.
+ * OASIS trademark, IPR and other policies apply.    
+ *   
+-->
+<!--
+ * [SPR30005] Tests that where there are no explicit <sca:service/> elements in the
+ * application context, if a bean class implements two or more java interfaces which
+ * are annotated with @Remotable, this is not allowed and the SCA runtime MUST raise
+ * an error.
+-->
+<composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+           targetNamespace="http://docs.oasis-open.org/ns/opencsa/scatests/200903"
+           xmlns:test="http://docs.oasis-open.org/ns/opencsa/scatests/200903"
+           name="test">
+           
+    <component name="TEST_COMPONENT">
+        <implementation.spring location="context.xml"/>
+    </component> 
+
+</composite>

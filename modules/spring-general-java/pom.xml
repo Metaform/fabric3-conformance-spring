@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *
+ * Copyright(C) OASIS(R) 2009,2011. All Rights Reserved.
+ * OASIS trademark, IPR and other policies apply.    
+ *   
+-->
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+        <groupId>com.metaformsystems.fabric3.conformance.spring</groupId>
+        <artifactId>modules</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>spring-general-java</artifactId>
+	<name>OASIS Spring CI TestCases - General Java</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.fabric3.spec</groupId>
+            <artifactId>sca-api</artifactId>
+            <version>${sca.api.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

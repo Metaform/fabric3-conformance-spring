@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ *
+ * Copyright(C) OASIS(R) 2009,2011. All Rights Reserved.
+ * OASIS trademark, IPR and other policies apply.    
+ *   
+-->
+<!--
+Tests that the value of the @name attribute of an <sca:reference/> subelement of a <beans/> element 
+is unique amongst the @name attributes of the <reference/> subelements, <property/> subelements 
+and the <bean/> subelements of the <beans/> element.
+-->
+<composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+           targetNamespace="http://docs.oasis-open.org/ns/opencsa/scatests/200903"
+           xmlns:test="http://docs.oasis-open.org/ns/opencsa/scatests/200903"
+           name="test">
+           
+    <component name="TEST_COMPONENT">
+        <implementation.spring location="META-INF/lib/manifestNoSpringHeader.jar"/>
+    </component> 
+
+</composite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.metaformsystems.fabric3.conformance.spring</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>tests</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Fabric3 SCA Spring Component Implementation Conformance Tests</name>
+    <packaging>pom</packaging>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.fabric3.spec</groupId>
+            <artifactId>sca-api</artifactId>
+            <version>${sca.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+    </dependencies>
+
+
+    <modules>
+        <module>smoketest</module>
+        <module>SPR_20001</module>
+        <module>SPR_20002</module>
+        <module>SPR_20003</module>
+        <module>SPR_20004_1</module>
+        <module>SPR_20004_2</module>
+        <module>SPR_20006</module>
+        <module>SPR_30005</module>
+        <module>SPR_40001_1</module>
+        <module>SPR_40001_2</module>
+        <module>SPR_40001_3</module>
+        <module>SPR_40001_4</module>
+        <module>SPR_40001_5</module>
+        <module>SPR_40002</module>
+        <module>SPR_40003</module>
+        <module>SPR_40004</module>
+        <module>SPR_40005</module>
+        <module>SPR_40006_1</module>
+        <module>SPR_40006_2</module>
+        <module>SPR_40007</module>
+        <module>SPR_40008</module>
+        <module>SPR_40009</module>
+    </modules>
+</project>
